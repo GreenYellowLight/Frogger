@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Frogger</title>
+  <script defer src="main.js"></script></head>
+  <body>
+    <h1>Frogger</h1>
+    <div>
+      <h2><strong>How to play:</strong></h2>
+      <p> The aim of Frogger is to score the most points. A tally of how many points have been scored this game is kept
+        beside the text "Current score". "High score" keeps track of your best game until you reload the page. "Difficulty"
+        keeps tracks of the difficulty (which is a multiplier of piece movement speed).
+        <br><br>
+        <strong>Movement:</strong> You are the frog, the <font color="LimeGreen">light green</font> square at the bottom of the game. 
+        w = up, a = left, s = down, d = right.
+        <br><br>
+        <strong>Scoring:</strong> There are two ways to score in this game. Each is worth 1 point <ol>
+          <li>Jump on one of the <font color="DarkGreen">dark green</font> lily pads at the top of the game. Doing so will teleport you back to
+            the start. After you jump on all three lily pads they will reset so you can score again!
+          </li>
+          <li>Touch one of the <font color="GoldenRod">gold</font> coins that will occasionally go across the screen. Be quick as they disappear!</li>
+        </ol>
+      <strong>Obstacles:</strong> there are two main sections with obstacles that the frog has to be wary of. The road and the river.
+      <br><br>
+      The road is the first obstacle. It is the  <font color="BlueViolet">purple</font> strip. On the road there are a lot of  <font color="Red">red</font> cars. Cars kill frogs when they touch them!
+      When you go accross the road make sure not to touch any cars.
+
+      <br><br>
+      The river is the second obstacle. Do not touch the water! Jump from <font color="LimeGreen">green mossy log </font> to
+      <font color="LimeGreen">green mossy log</font>. Frogs have bad balance, so if you are partly off a log you will slip and drown!
+
+        
+        
+        </p>
+
+
+        
+        
+     
+    
+    
+    </div>
+    
+
+
+    <svg id="svgCanvas" width="600" height="600">
+      <g id=backgroundLayer></g>
+      <g id=middlegroundLayer></g>
+      <g id=foregroundLayer>
+        <rect id="frog" width="25" height="25" style="fill:rgb(105, 255, 105)"></rect>
+      </g>
+      
+    </svg>
+    
+  </g>
+
+
+  </body>
+</html>
