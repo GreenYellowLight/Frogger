@@ -2,6 +2,8 @@
 
 The aim of Frogger is to score the most points. A tally of how many points have been scored this game is kept beside the text "Current score". "High score" keeps track of your best game until you reload the page. "Difficulty" keeps tracks of the difficulty (which is a multiplier of piece movement speed).
 
+Online version available [here](https://greenyellowlight.github.io/).
+
 ![Example of the game](/GAME_IMAGE.png)
 
 **Movement:** You are the frog, the light green square at the bottom of the game. w = up, a = left, s = down, d = right.
